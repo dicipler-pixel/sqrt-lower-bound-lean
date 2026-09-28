@@ -1,0 +1,158 @@
+{
+ "modules": [
+  {
+   "module": "RequestProject.BlockTranspose",
+   "path": "RequestProject/BlockTranspose.lean"
+  },
+  {
+   "module": "RequestProject.CentralBinomial",
+   "path": "RequestProject/CentralBinomial.lean"
+  },
+  {
+   "module": "RequestProject.CircuitPhase",
+   "path": "RequestProject/CircuitPhase.lean"
+  },
+  {
+   "module": "RequestProject.ColourCounting",
+   "path": "RequestProject/ColourCounting.lean"
+  },
+  {
+   "module": "RequestProject.ConcreteEntropyAssembly",
+   "path": "RequestProject/ConcreteEntropyAssembly.lean"
+  },
+  {
+   "module": "RequestProject.CountSectors",
+   "path": "RequestProject/CountSectors.lean"
+  },
+  {
+   "module": "RequestProject.EntropyLaw",
+   "path": "RequestProject/EntropyLaw.lean"
+  },
+  {
+   "module": "RequestProject.EntropyMeasurement",
+   "path": "RequestProject/EntropyMeasurement.lean"
+  },
+  {
+   "module": "RequestProject.ExtremeNegative",
+   "path": "RequestProject/ExtremeNegative.lean"
+  },
+  {
+   "module": "RequestProject.ExtremePositive",
+   "path": "RequestProject/ExtremePositive.lean"
+  },
+  {
+   "module": "RequestProject.FibreEntropy",
+   "path": "RequestProject/FibreEntropy.lean"
+  },
+  {
+   "module": "RequestProject.FibreReduction",
+   "path": "RequestProject/FibreReduction.lean"
+  },
+  {
+   "module": "RequestProject.FlatSpectrum",
+   "path": "RequestProject/FlatSpectrum.lean"
+  },
+  {
+   "module": "RequestProject.FlatSpectrumEntropy",
+   "path": "RequestProject/FlatSpectrumEntropy.lean"
+  },
+  {
+   "module": "RequestProject.Gate",
+   "path": "RequestProject/Gate.lean"
+  },
+  {
+   "module": "RequestProject.GridPhase",
+   "path": "RequestProject/GridPhase.lean"
+  },
+  {
+   "module": "RequestProject.LocalEquivalence",
+   "path": "RequestProject/LocalEquivalence.lean"
+  },
+  {
+   "module": "RequestProject.Main",
+   "path": "RequestProject/Main.lean"
+  },
+  {
+   "module": "RequestProject.MeanAbsDeviation",
+   "path": "RequestProject/MeanAbsDeviation.lean"
+  },
+  {
+   "module": "RequestProject.MixedHessian",
+   "path": "RequestProject/MixedHessian.lean"
+  },
+  {
+   "module": "RequestProject.NegativeCircuit",
+   "path": "RequestProject/NegativeCircuit.lean"
+  },
+  {
+   "module": "RequestProject.PhasedFourier",
+   "path": "RequestProject/PhasedFourier.lean"
+  },
+  {
+   "module": "RequestProject.QuantumEntropy",
+   "path": "RequestProject/QuantumEntropy.lean"
+  },
+  {
+   "module": "RequestProject.RectangularCore",
+   "path": "RequestProject/RectangularCore.lean"
+  },
+  {
+   "module": "RequestProject.ResidualCircuit",
+   "path": "RequestProject/ResidualCircuit.lean"
+  },
+  {
+   "module": "RequestProject.ResidualEntropy",
+   "path": "RequestProject/ResidualEntropy.lean"
+  },
+  {
+   "module": "RequestProject.ResponseCones",
+   "path": "RequestProject/ResponseCones.lean"
+  },
+  {
+   "module": "RequestProject.SourceSectorWeights",
+   "path": "RequestProject/SourceSectorWeights.lean"
+  },
+  {
+   "module": "RequestProject.WordMeasurement",
+   "path": "RequestProject/WordMeasurement.lean"
+  },
+  {
+   "module": "RequestProject.WordStabilizer",
+   "path": "RequestProject/WordStabilizer.lean"
+  }
+ ],
+ "expected_theorems": 661,
+ "expected_false_controls": 1,
+ "root_imports": [
+  "RequestProject.BlockTranspose",
+  "RequestProject.CentralBinomial",
+  "RequestProject.CircuitPhase",
+  "RequestProject.ColourCounting",
+  "RequestProject.ConcreteEntropyAssembly",
+  "RequestProject.CountSectors",
+  "RequestProject.EntropyLaw",
+  "RequestProject.EntropyMeasurement",
+  "RequestProject.ExtremeNegative",
+  "RequestProject.ExtremePositive",
+  "RequestProject.FibreEntropy",
+  "RequestProject.FibreReduction",
+  "RequestProject.FlatSpectrum",
+  "RequestProject.FlatSpectrumEntropy",
+  "RequestProject.Gate",
+  "RequestProject.GridPhase",
+  "RequestProject.LocalEquivalence",
+  "RequestProject.Main",
+  "RequestProject.MeanAbsDeviation",
+  "RequestProject.MixedHessian",
+  "RequestProject.NegativeCircuit",
+  "RequestProject.PhasedFourier",
+  "RequestProject.QuantumEntropy",
+  "RequestProject.RectangularCore",
+  "RequestProject.ResidualCircuit",
+  "RequestProject.ResidualEntropy",
+  "RequestProject.ResponseCones",
+  "RequestProject.SourceSectorWeights",
+  "RequestProject.WordMeasurement",
+  "RequestProject.WordStabilizer"
+ ]
+}

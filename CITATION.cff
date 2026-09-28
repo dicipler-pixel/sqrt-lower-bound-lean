@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use these Lean proofs, please cite them as below."
+title: "Square-root growth of operator entanglement: the lower bound in Lean"
+authors:
+  - family-names: "Beasley"
+    given-names: "Jeromie"
+version: 1.0.0
+date-released: 2026-09-27
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://github.com/dicipler-pixel/sqrt-lower-bound-lean"
+keywords:
+  - Lean 4
+  - Mathlib
+  - formal verification
+  - operator entanglement
+  - brickwork circuit
+  - integrable systems
+references:
+  - type: article
+    title: "Square-root growth of operator entanglement in an integrable brickwork circuit"
+    authors:
+      - family-names: "Pozsgay"
+        given-names: "Balázs"
+      - family-names: "Vona"
+        given-names: "István"
