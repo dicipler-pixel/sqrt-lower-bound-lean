@@ -2,7 +2,7 @@
 
 # Square-root growth of operator entanglement — the lower bound in Lean
 
-**A complete, dependency-closed Lean proof that operator entanglement in an integrable brickwork circuit grows at least like the square root of time.**
+**A complete, dependency-closed Lean proof of the square-root lower bound on operator entanglement for the finite rectangular core to which the paper's Lemma 4.1 reduces an integrable brickwork circuit.**
 
 [![Lean proof check](https://github.com/dicipler-pixel/sqrt-lower-bound-lean/actions/workflows/build.yml/badge.svg)](https://github.com/dicipler-pixel/sqrt-lower-bound-lean/actions/workflows/build.yml)
 ![Lean](https://img.shields.io/badge/Lean-v4.28.0-blue)
@@ -19,24 +19,26 @@ Jeromie Beasley
 
 ## The result in one line
 
-For the rectangular finite-field brickwork circuit over a finite field `F` of odd characteristic,
-with a nontrivial additive character `ψ`, the von Neumann entanglement of the selected operator
-after `n + 1` layers satisfies
+For the finite rectangular core `Xₜ = Wₜᴴ Sₜ Wₜ` with `t = n + 1`, over a finite field `F` of odd
+characteristic and with a nontrivial additive character `ψ`, the von Neumann operator
+entanglement of `Xₜ` across the cut between its two length-`t` packets satisfies
 
 ```text
 log q · √((n + 1)/π) − (3/2) log q  ≤  S(n + 1),      q = |F|
 ```
 
 (`SqrtOpEnt.standalone_rectangular_lower_sqrt_bound` in
-[`RequestProject/Main.lean`](RequestProject/Main.lean)). Integrable circuits are generally
-expected to entangle operators at most logarithmically; this is the proved lower half of the
-counterexample.
+[`RequestProject/Main.lean`](RequestProject/Main.lean)). The only hypotheses are `ψ ≠ 1` and odd
+characteristic. Integrable circuits are generally expected to entangle operators at most
+logarithmically; this is the proved lower half of the counterexample. The step from the brickwork
+circuit to `Xₜ` is the paper's Lemma 4.1 and is not formalized: no brickwork circuit is defined in
+Lean.
 
 ## Whose mathematics
 
 The theorem is from Balázs Pozsgay and István Vona, *Square-root growth of operator entanglement
 in an integrable brickwork circuit* (4 September 2026). This repository is Jeromie Beasley's
-formalization of their lower bound: 30 files and 661 theorems, from the circuit and its gate up
+formalization of their lower bound: 30 files and 661 theorems, from the gate and the finite core up
 through the fibre reduction, the flat spectrum, the central-binomial estimate
 `√(t/π) − 1 ≤ t·C(2t, t)/4ᵗ ≤ √(t/π)` and the entropy assembly.
 
@@ -71,8 +73,10 @@ python3 scripts/verify.py
 
 ## What is not here
 
-The upper-bound saturation and the `+ log t` correction are intentionally absent; see
-[`LIMITATIONS.md`](LIMITATIONS.md).
+The reduction from the brickwork circuit to the finite core (Lemma 4.1) is not formalized. The
+matching upper bound and the `+ log t` correction appear only in conditional form: Theorem 7.1
+and its concrete version take the entropy sandwich (Propositions 5.3 and 5.4) and the branch
+identity of Theorem 6.5 as hypotheses. See [`LIMITATIONS.md`](LIMITATIONS.md).
 
 ## Licence, citation and AI use
 
